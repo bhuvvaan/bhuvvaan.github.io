@@ -21,7 +21,7 @@ I am a third year Ph.D. student at CU Boulder. I am broadly interested in Human 
 
 Earlier, I developed a smart cane that can [find socially preferred seats and help the user navigate to those](https://drive.google.com/file/d/1VP3k-SudX21NZ_HvtA49C2bNZuhjbgAo/view?usp=sharing). Going forward, I am working towards making an end-to-end solution to help people with visual impairment with independent shopping in a grocery store. My current work tries to solve the manipulation guidance problem to help people retrieve the desired item from an aisle. 
 
-When not working, you can find me playing tennis or [biking](https://www.strava.com/athletes/31779193) in the lovely city of Boulder. I also enjoy cooking in my free time and exploring local food and beverages.
+When not working, you can find me playing tennis or [biking](https://www.strava.com/athletes/31779193) in the [lovely city of Boulder](https://youtube.com/playlist?list=PLEcdUQuIeys3P7XsRJMF3zriFkCa77X0j). I also enjoy cooking in my free time and exploring local food and beverages.
 Minor-flex - I have more than 20 millions views on my Google Map [contributions](https://www.google.com/maps/contrib/118433183916755884441/photos/) and have received a rather vibrant blue pair of socks from Google for my service. 
 
 
