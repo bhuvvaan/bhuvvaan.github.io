@@ -16,14 +16,6 @@ You can find my live handwritten lecture notes [here](https://drive.google.com/d
 
 ---
 
-
-## YouTube 
-My tutorial on 3-CNF SAT to Subset Sum reduction is the most watched and most liked video on the topic. 
-[![IMAGE ALT TEXT HERE](/assets/img/mq3.jpg)](https://www.youtube.com/watch?v=k8RkYp5KhhU)
-
----
-
-
 ## Teaching Assistant
 I have been a teaching assistant for 
 
@@ -32,5 +24,12 @@ I have been a teaching assistant for
 **CSCI 3002 HCI** - `Awards cancelled due to Covid`
 
 **CSCI 3302 Intro to Robotics** - `David T. Spalding Graduate Teaching Fund Fellowship for excellence in teaching (2021-2022)`
+
+---
+
+## YouTube 
+My tutorial on 3-CNF SAT to Subset Sum reduction is the most watched and most liked video on the topic. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k8RkYp5KhhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
