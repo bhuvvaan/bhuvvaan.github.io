@@ -4,7 +4,7 @@ title: An Explainable Reinforcement Learning Approach for Enabling Robots to Coa
 description: Best Technical Paper Runner-up HRI 2019
 img: assets/img/blog/RARE/fig_user_study1.jpg
 # redirect: https://unsplash.com
-importance: 3
+importance: 2
 category: work
 ---
 

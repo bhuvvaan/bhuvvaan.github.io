@@ -4,7 +4,7 @@ title: Smart Cane for grocery shopping assistance
 description: 2022 - Ongoing
 img: https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMzgyNjcyLWltYWdlLWt3eXFrZHR5LmpwZw.jpg?s=5i_WsjSiGsjd3dh0cW88obuceCo8lP2eP7-3WYh62qs
 # redirect: https://unsplash.com
-importance: 3
+importance: 2
 category: work
 ---
 

@@ -4,7 +4,7 @@ title: Smart cane to find socially preferred seats
 description: 2021-2022
 img: assets/img/demo_smartcane.jpeg
 # redirect: https://unsplash.com
-importance: 3
+importance: 1
 category: work
 ---
 

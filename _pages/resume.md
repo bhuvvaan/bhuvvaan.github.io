@@ -6,7 +6,7 @@ description:
 nav: true
 ---
 
-Last Updated: Mar 2022
+Last Updated: Nov 2022
 
 <iframe src="/assets/pdf/resume.pdf#toolbar=0 " width="100%" height="1000px"> </iframe>
 
