@@ -16,17 +16,6 @@ profile:
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5B0RHBKFCE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5B0RHBKFCE');
-</script>
-
 ---
 
 I am a third year Ph.D. student at CU Boulder. I work in the [CAIRO Lab](http://www.cairo-lab.com/) under the supervision of [Prof. Bradley Hayes](http://www.bradhayes.info/). I am broadly interested in Human Robotics Interaction (HRI), Computer Vision (CV), 3D Scene Understanding, and Explainable AI. I am particularly interested in the application of these in Assistive Robotics. I am currently developing a smart cane that uses insights from psychology, CV, NLP, haptics, robotics and HRI to assist people with visual impairments perform day-to-day more independently.
