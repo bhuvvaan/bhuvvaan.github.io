@@ -6,6 +6,15 @@ description:
 nav: true
 nav_order: 5
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5B0RHBKFCE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5B0RHBKFCE');
+</script>
 
 ## Instructor
 I taught the undergraduate **Algorithms CSCI 3104** class in Fall 2019 with **109** students in my section. I co-created the material with [Dr. Rhonda Hoenigman](https://experts.colorado.edu/display/fisid_152997) and together we taught more than 250 students.
