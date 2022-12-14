@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-10-26
 inline: true
 ---
 
-A simple inline announcement.
+[Presented our paper on faciliating navigation and social norm adherence for the BVI at IROS 2022](/projects/social_guidance/).

@@ -13,7 +13,7 @@ I taught the undergraduate **Algorithms CSCI 3104** class in Fall 2019 with **10
 <!-- I received the highest [FCQ](https://www.colorado.edu/fcq/boulder-fcq-results) as an instructor for that class in recent times.  -->
 I was also awarded the `Best Part Time Gradute Instructor 2019-2020`.
 
-You can find my live handwritten lecture notes [here](https://drive.google.com/drive/folders/1vRfMC7lCrVAZzo3dz8qBtgsNyankIEty?usp=sharing).
+You can find my [live handwritten lecture notes here](https://drive.google.com/drive/folders/1vRfMC7lCrVAZzo3dz8qBtgsNyankIEty?usp=sharing).
 
 ---
 
@@ -22,7 +22,7 @@ I have been a teaching assistant for
 
 **CSCI 3104 Algorithms** - `Outstanding TA award (2017-2018, 2018-2019)`
 
-**CSCI 3002 HCI** - `Awards cancelled due to Covid`
+**CSCI 3002 HCI**
 
 **CSCI 3302 Intro to Robotics** - `David T. Spalding Graduate Teaching Fund Fellowship for excellence in teaching (2021-2022)`
 
