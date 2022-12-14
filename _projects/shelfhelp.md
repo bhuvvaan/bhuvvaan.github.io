@@ -1,10 +1,11 @@
 ---
 layout: page
-title: ShelfHelp - A smart assitive system for independent grocercy shopping for the visually impaired
+title: ShelfHelp -A smart assitive system for independent grocery shopping
 description: 2022 - Ongoing
+img: assets/img/paper/shelfhelp/cover.jpg
 # img: https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMzgyNjcyLWltYWdlLWt3eXFrZHR5LmpwZw.jpg?s=5i_WsjSiGsjd3dh0cW88obuceCo8lP2eP7-3WYh62qs
 # redirect: https://unsplash.com
-importance: 2
+importance: 1
 category: work
 ---
 
