@@ -33,5 +33,5 @@ nav_order: 1
 
 **"Is this seat taken?" Towards a Novel Robotic Cane for Participation in the Social Dynamics of Seat Choice for Blind Individuals** [Project page](/projects/social_guidance/)  `Winner, Annual Research Expo 2022`
 
-This poster presents our work under review that describes a robotic cane system that can find socially
+This poster presents our work that describes a robotic cane system that can find socially
 preferred seats and navigate its users to the seats using a novel haptics method. 
