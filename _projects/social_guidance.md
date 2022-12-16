@@ -31,7 +31,9 @@ blind people to exercise the nuances of seat choices.
 
 <br /><br />
 **Poster**
-<iframe src="https://drive.google.com/file/d/1VP3k-SudX21NZ_HvtA49C2bNZuhjbgAo/preview" width="640" height="480" allow="autoplay"></iframe>
+<div class="video-container">
+<iframe src="https://drive.google.com/file/d/1VP3k-SudX21NZ_HvtA49C2bNZuhjbgAo/preview" allow="autoplay"></iframe>
+</div>
 
 <br /><br />
 **System Demo Video** 
