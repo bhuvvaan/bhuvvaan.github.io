@@ -17,6 +17,20 @@ category: work
 
 We are working towards making an end-to-end system that can assist with independent grocery shopping as shopping with sighted guide is prohibitive and often causes a loss of privacy. Grocery shopping primarily consists of three main subtasks: **navigation**, **product retrieval**, and **product examination**. Our current work focuses on **product retrieval**. *ShelfHelp* can locate items on the shelf and verbally provide fine-grain manipulation guidance to help people retrieve the desired item from an aisle. 
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" style="vertical-align:middle">
+        {% include figure.html path="assets/img/paper/shelfhelp/demo.gif" title="System in action" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    With our system, the blindfloded user is able to retrieve the desired product from the shelf.
+</div>
+
+
+**Video with sound (recommended version)**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6Yxme7-UHhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br />
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" style="vertical-align:middle">
