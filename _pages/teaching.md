@@ -31,6 +31,8 @@ I have been a teaching assistant for
 ## YouTube 
 My tutorial on 3-CNF SAT to Subset Sum reduction is the most watched and most liked video on the topic. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k8RkYp5KhhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/k8RkYp5KhhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ---

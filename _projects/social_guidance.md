@@ -24,7 +24,9 @@ blind people to exercise the nuances of seat choices.
 
 
 **Paper presentation @ IROS 22 Kyoto, Japan**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6lmUHh1aFFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/6lmUHh1aFFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 <br /><br />
@@ -33,7 +35,9 @@ blind people to exercise the nuances of seat choices.
 
 <br /><br />
 **System Demo Video** 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fcOJgpEuN9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/fcOJgpEuN9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <br /><br />
 **Paper**

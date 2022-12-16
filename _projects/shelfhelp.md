@@ -28,8 +28,9 @@ We are working towards making an end-to-end system that can assist with independ
 
 
 **Video with sound (recommended version)**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6Yxme7-UHhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/6Yxme7-UHhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <br />
 
 <div class="row">
