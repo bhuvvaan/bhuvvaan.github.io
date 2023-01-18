@@ -7,6 +7,10 @@ img: assets/img/demo_smartcane.jpeg
 importance: 1
 category: work
 ---
+    Team members:
+    Shivendra Agrawal (lead)
+    Mary Etta West (Ph.D. researcher)
+    Bradley Hayes (Advisor)
 
 We designed a robotics cane system that leverages computer vision, and insights from psychology and
 haptics literature to enable users to navigate to socially preferred empty chairs. Our social-norm aware

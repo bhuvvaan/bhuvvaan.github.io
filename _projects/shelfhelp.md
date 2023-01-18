@@ -14,6 +14,7 @@ category: work
     Suresh Nayak (Graduate researcher)
     Ashutosh Naik (Graduate researcher)
     Alexander Mueller (Undergraduate researcher)
+    Bradley Hayes (Advisor)
 
 We are working towards making an end-to-end system that can assist with independent grocery shopping as shopping with sighted guide is prohibitive and often causes a loss of privacy. Grocery shopping primarily consists of three main subtasks: **navigation**, **product retrieval**, and **product examination**. Our current work focuses on **product retrieval**. *ShelfHelp* can locate items on the shelf and verbally provide fine-grain manipulation guidance to help people retrieve the desired item from an aisle. 
 

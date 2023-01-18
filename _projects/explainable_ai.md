@@ -7,6 +7,10 @@ img: assets/img/blog/RARE/fig_user_study1.jpg
 importance: 2
 category: work
 ---
+    Team members:
+    Aaquib Tabrez
+    Shivendra Agrawal
+    Bradley Hayes (Advisor)
 
 While much of the existing robotics literature focuses on making robots better at performing tasks, this work explores how we can use that proficiency and expertise to allow robots to provide personalized feedback with the goal of coaching humans to improve task performance. We investigate the challenges faced by robots while coaching humans (e.g., providing corrective feedback) during collaboration and how explainable AI can be leveraged to alleviate these challenges for fostering trust, teamwork, transparency.
 
