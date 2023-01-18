@@ -4,4 +4,4 @@ date: 2022-10-26
 inline: true
 ---
 
-[Presented our paper on faciliating navigation and social norm adherence for the BVI at IROS 2022](/projects/social_guidance/).
+[Presented our paper on faciliating navigation and social norm adherence for the BVI at IROS 2022 Kyoto.](/projects/social_guidance/).
