@@ -4,27 +4,29 @@ permalink: /teaching/
 title: Teaching
 description: 
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 ## Instructor
-I taught the undergraduate **Algorithms CSCI 3104** class in Fall 2019 with **109** students in my section. I co-created the material with [Dr. Rhonda Hoenigman](https://experts.colorado.edu/display/fisid_152997) and together we taught more than 250 students.
+* I taught the undergraduate **Algorithms CSCI 3104** class in Fall 2019 with **109** students in my section. I co-created the material with [Dr. Rhonda Hoenigman](https://experts.colorado.edu/display/fisid_152997) and together we taught more than 250 students.
 
 <!-- I received the highest [FCQ](https://www.colorado.edu/fcq/boulder-fcq-results) as an instructor for that class in recent times.  -->
-I was also awarded the `Best Part Time Gradute Instructor 2019-2020`.
+* Was awarded the `Best Part Time Gradute Instructor 2019-2020` for the above.
 
-You can find my [live handwritten lecture notes here](https://drive.google.com/drive/folders/1vRfMC7lCrVAZzo3dz8qBtgsNyankIEty?usp=sharing).
+* You can find my [live handwritten lecture notes here](https://drive.google.com/drive/folders/1vRfMC7lCrVAZzo3dz8qBtgsNyankIEty?usp=sharing).
 
 ---
 
 ## Teaching Assistant
 I have been a teaching assistant for 
 
-**CSCI 3104 Algorithms** - `Outstanding TA award (2017-2018, 2018-2019)`
+1. **CSCI 3104 Algorithms** - `Outstanding TA award (2017-2018, 2018-2019)`
 
-**CSCI 3002 HCI**
+2. **CSCI 3002 HCI**
 
-**CSCI 3302 Intro to Robotics** - `David T. Spalding Graduate Teaching Fund Fellowship for excellence in teaching (2021-2022)`
+3. **CSCI 3302 Intro to Robotics** - `David T. Spalding Graduate Teaching Fund Fellowship for excellence in teaching (2021-2022)`
+
+4. **CSCI 4302/5302 Advanced Robotics** - 2023 Spring (ongoing)
 
 ---
 
