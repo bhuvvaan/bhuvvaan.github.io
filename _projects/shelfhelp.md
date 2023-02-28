@@ -43,6 +43,12 @@ We are working towards making an end-to-end system that can assist with independ
     ShelfHelp includes a robotic cane equipped with RealSense D455 and T265 cameras. The system is powered through a laptop in a backpack. Left: The system used as a navigational device. It uses audio and haptic feedback for navigation guidance. Right: The system used as a manipulation device. It uses audio for manipulation guidance.
 </div>
 
+<br /><br />
+**Poster**
+<div class="video-container">
+<iframe src="https://drive.google.com/file/d/17mWVixpbJMO0XawlrPxeMDcXIgmnMesH/preview" allow="autoplay"></iframe>
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" style="vertical-align:middle">
         {% include figure.html path="assets/img/paper/shelfhelp/system_diagram.png" title="System architecture" class="img-fluid rounded z-depth-1" %}
