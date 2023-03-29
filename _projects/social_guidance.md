@@ -8,8 +8,10 @@ importance: 1
 category: work
 ---
     Team members:
-    Shivendra Agrawal (lead)
+    Shivendra Agrawal (Lead)
     Mary Etta West (Ph.D. researcher)
+    Chris Beggs (Undergraduate researcher)
+    Lara Chunko (Undergraduate researcher)
     Bradley Hayes (Advisor)
 
 We designed a robotics cane system that leverages computer vision, and insights from psychology and
