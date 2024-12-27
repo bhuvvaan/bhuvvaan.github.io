@@ -1,16 +1,23 @@
 ---
 layout: page
 title: An Explainable Reinforcement Learning Approach for Enabling Robots to Coach Humans
-description: Best Technical Paper Runner-up HRI 2019
+description: Best Technical Paper Runner-up @ Human-Robot Interaction conference 2019
 img: assets/img/blog/RARE/fig_user_study1.jpg
 # redirect: https://unsplash.com
 importance: 2
+date: 2020-05-20
 category: work
 ---
     Team members:
     Aaquib Tabrez
     Shivendra Agrawal
     Bradley Hayes (Advisor)
+
+<br /><br />
+**Paper**
+<div class="publications">
+{% bibliography -f papers -q @*[topic=explainable_ai]* %}
+</div>
 
 While much of the existing robotics literature focuses on making robots better at performing tasks, this work explores how we can use that proficiency and expertise to allow robots to provide personalized feedback with the goal of coaching humans to improve task performance. We investigate the challenges faced by robots while coaching humans (e.g., providing corrective feedback) during collaboration and how explainable AI can be leveraged to alleviate these challenges for fostering trust, teamwork, transparency.
 
@@ -40,7 +47,7 @@ Here, we explain the intuition behind RARE through an example. Consider a grid w
 
 <p align="center">
 	<!-- <img align="center" width="75%" src="assets/img/blog/RARE/RARE-explain.gif"/> -->
-	{% include figure.html path="assets/img/blog/RARE/RARE-explain.gif" class="img-fluid rounded" %}
+	{% include figure.liquid path="assets/img/blog/RARE/RARE-explain.gif" class="img-fluid rounded" %}
 	<br><em><b>Figure 1: RARE framework estimating the missing reward factor (100) based on human behavior (red line)</b></em>
 </p>
 
@@ -51,7 +58,7 @@ To address the "**_when_**", we model the problem as a <a style="color:blue" hre
 
 <p align="center">
 	<!-- <img align="center" width="75%" src="assets/img/blog/RARE/state-transition-diagram.gif"/> -->
-	{% include figure.html path="assets/img/blog/RARE/state-transition-diagram.gif" class="img-fluid rounded" %}
+	{% include figure.liquid path="assets/img/blog/RARE/state-transition-diagram.gif" class="img-fluid rounded" %}
 	<br><em><b>Figure 2: Procedural visualization of the estimation of human collaborator's mental model by the robot using RARE.</b></em>
 </p>
 
@@ -59,7 +66,7 @@ Finally, we are left with the challenge of resolving "**_how_**" the robot shoul
 
 <p align="center">
 	<!-- <img align="center" width="75%" src="assets/img/blog/RARE/policy-correction.gif"/> -->
-	{% include figure.html path="assets/img/blog/RARE/policy-correction.gif" class="img-fluid rounded" %}
+	{% include figure.liquid path="assets/img/blog/RARE/policy-correction.gif" class="img-fluid rounded" %}
 	<br><em><b>Figure 3 Caption: RARE enables robotic coaches to repair sub-optimal policy by informing the human about the missing reward from their mental model.</b></em>
 </p>
 
@@ -67,8 +74,8 @@ Finally, we are left with the challenge of resolving "**_how_**" the robot shoul
 
 
 <figure class="half" style="display:flex">
-	{% include figure.html path="assets/img/blog/RARE/fig_option1.jpg" class="img-fluid rounded" %}
-	{% include figure.html path="assets/img/blog/RARE/fig_option2.jpg" class="img-fluid rounded" %}
+	{% include figure.liquid path="assets/img/blog/RARE/fig_option1.jpg" class="img-fluid rounded" %}
+	{% include figure.liquid path="assets/img/blog/RARE/fig_option2.jpg" class="img-fluid rounded" %}
 		<!-- <img align="center" width="50%" src="assets/img/blog/RARE/fig_option1.jpg"/>
 		<img align="center" width="50%" src="assets/img/blog/RARE/fig_option2.jpg"/> -->
 </figure>
@@ -85,14 +92,14 @@ Finally, we are left with the challenge of resolving "**_how_**" the robot shoul
 ## **Experimental evaluation and results:**
 
 <figure class="half" style="display:flex">
-	{% include figure.html path="assets/img/blog/RARE/fig_user_study1.jpg" class="img-fluid rounded" %}
-	{% include figure.html path="assets/img/blog/RARE/fig_user_study2.jpg" class="img-fluid rounded" %}
+	{% include figure.liquid path="assets/img/blog/RARE/fig_user_study1.jpg" class="img-fluid rounded" %}
+	{% include figure.liquid path="assets/img/blog/RARE/fig_user_study2.jpg" class="img-fluid rounded" %}
 		<!-- <img align="center" width="50%" src="assets/img/blog/RARE/fig_user_study1.jpg"/>
 		<img align="center" width="50%" src="assets/img/blog/RARE/fig_user_study2.jpg"/> -->
 </figure>
 <figure class="half" style="display:flex">
-	{% include figure.html path="assets/img/blog/RARE/fig_user_study3.jpg" class="img-fluid rounded" %}
-	{% include figure.html path="assets/img/blog/RARE/fig_user_study4.jpg" class="img-fluid rounded" %}
+	{% include figure.liquid path="assets/img/blog/RARE/fig_user_study3.jpg" class="img-fluid rounded" %}
+	{% include figure.liquid path="assets/img/blog/RARE/fig_user_study4.jpg" class="img-fluid rounded" %}
 		<!-- <img align="center" width="50%" src="assets/img/blog/RARE/fig_user_study3.jpg"/>
 		<img align="center" width="50%" src="assets/img/blog/RARE/fig_user_study4.jpg"/> -->
 </figure>
@@ -116,7 +123,7 @@ The subjective evaluation of our study shows that robots that provide justificat
 
 
 <p align="center">
-	{% include figure.html path="assets/img/blog/RARE/quotes.gif" class="img-fluid rounded" %}
+	{% include figure.liquid path="assets/img/blog/RARE/quotes.gif" class="img-fluid rounded" %}
 	<!-- <img align="center" width="75%" src="assets/img/blog/RARE/quotes.gif"/> -->
 	<br><em><b>Figure 6: Some of the participant feedback from the user study showing the contrast between the user experience in both condition</b></em>
 </p>
@@ -128,7 +135,7 @@ To summarize, we developed a novel framework enabling an expert robot to coach a
 
 <hr>
 
-<p align="center">
+<!-- <p align="center">
 This blog post is based on the following paper:
 </p>
 
@@ -146,4 +153,4 @@ Proceedings of the 2019 ACM/IEEE International Conference on Human Robot Interac
   year={2019},
   organization={IEEE}
 }
-```
+``` -->
