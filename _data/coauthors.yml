@@ -1,21 +1,21 @@
-"Hayes":
+"hayes":
   - firstname: ["Brad", "B.", "Bradley"]
     url: http://www.bradhayes.info/
 
-"Tabrez":
+"tabrez":
   - firstname: ["Aaquib", "A.", "Mohd."]
     url: https://www.linkedin.com/in/aaquib-tabrez
 
-"West":
+"west":
   - firstname: ["Mary", "M.", "Mary Etta"]
     url: https://www.ettawest.com/
 
 
-"Naik":
+"naik":
   - firstname: ["Ashutosh", "A."]
     url: https://ashutoshnaik.com/
 
-"Nayak":
+"nayak":
   - firstname: ["Suresh", "S."]
     url: https://www.linkedin.com/in/suresh-n-nayak
 
