@@ -44,95 +44,99 @@ category: work
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/paper/shelfmcl/2Dmapofthemockstore.png" title="2D Map of Mock Store" class="img-fluid rounded z-depth-1" %}
+<br>
+## Our Solution: A Novel Semantic Particle Filter
+
+**Minimal Sensor Requirements**
+
+Our system uses low-cost sensors such as an RGB-D camera and a visual odometry camera, without requiring LiDAR or wheel odometry.
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0" style="vertical-align:middle">
+        {% include figure.liquid path="assets/img/paper/shelfmcl/sensors.png" title="Sensors Used in the System" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<br>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/paper/shelfmcl/dusty_product_stock.mp4" title="Dynamic Environment Challenges" class="img-fluid rounded z-depth-1" %}
+**Modularity**
+- **Mountable on Carts/Strollers:**  Can add autonomous capabilities to existing equipment.
+- **Wearable:** Can support assistive technology for navigation.
+
+<div class="row justify-content-center">
+    <div class="col-sm-4 mt-3 mt-md-0 mx-3" style="vertical-align:middle">
+        {% include figure.liquid path="assets/img/paper/shelfmcl/maria_cart.gif" title="Mountable Rig on a Cart" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0 mx-3" style="vertical-align:middle">
+        {% include figure.liquid path="assets/img/paper/shelfmcl/dusty_wearable.gif" title="Wearable Rig for Assistive Technology" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <br>
+## Algorithm
 
-## Our Solution
-We developed a novel semantic Particle Filter with the following key features:
+- ### Semantic Mapping
+We trained a custom classifier to classify products into a fixed number of classes.
 
-**Minimal Sensor Requirements:**
-- Uses low-cost sensors: RGB-D camera and Visual Odometry camera
-- Does not require wheel encoders or expensive LiDAR systems
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/paper/shelfmcl/sensors.jpg" title="Sensor Setup" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-sm-4 mt-3 mt-md-0 mx-3" style="vertical-align:middle">
+        {% include figure.liquid path="assets/img/paper/shelfmcl/classification_rgb.gif" title="Semantic Mapping - Classification" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0 mx-3" style="vertical-align:middle">
+        {% include figure.liquid path="assets/img/paper/shelfmcl/classification_d.gif" title="Semantic Mapping - Classification" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<br>
 
-**Versatile Mounting Options:**
-1. Can be mounted on carts/strollers to add autonomous capabilities
-2. Wearable configuration to support assistive technology
+- ### Pose Correction
+Real-world pose estimates obtained through inverse camera projection are refined using ray casting on the semantic map.
 
-<div class="row">
-    <div class="col-sm-6">
-        {% include figure.liquid path="assets/img/paper/shelfmcl/maria_cart.mp4" title="Cart Mount Demo" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6">
-        {% include figure.liquid path="assets/img/paper/shelfmcl/dusty_wearable.mp4" title="Wearable Configuration" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0" style="vertical-align:middle">
+        {% include figure.liquid path="assets/img/paper/shelfmcl/raycast.gif" title="Product Clusters After Pose Correction" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <br>
-
-## Technical Approach
-
-**Semantic Mapping:**
-- Custom classifier for product classification
-- Product pose estimation using inverse camera projection
-- Ray casting for pose correction
+- ### Semantic Localization
+Semantic information is fused with the depth observation to in a Monte Carlo Localization framework.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/paper/shelfmcl/classification.mp4" title="Semantic Classification" class="img-fluid rounded z-depth-1" %}
+    <div class="video-container">
+        <iframe src="https://o365coloradoedu-my.sharepoint.com/personal/shag2211_colorado_edu/_layouts/15/Doc.aspx?sourcedoc={4067e890-bb8f-4de8-8772-ffcfb6b9c866}&amp;action=embedview&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=1" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
     </div>
 </div>
+
 <br>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/paper/shelfmcl/product_clusters_map.png" title="Product Pose Estimation" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<br>
-
-## Experiments and Results
-We tested our system in two configurations:
-1. As a wearable device for assistive navigation
-2. As a mountable rig on shopping carts
-
-<div class="row">
-    <div class="col-sm-6">
-        {% include figure.liquid path="assets/img/paper/shelfmcl/trajectory_plot.png" title="System Trajectory" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6">
-        {% include figure.liquid path="assets/img/paper/shelfmcl/particle_filter_trajectory_plot.png" title="Particle Filter Results" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<br>
-
-## Demo 
+## Demo
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/8q65wmsDsjU?si=5Ti_ab-E149Cmji4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/8q65wmsDsjU?si=5Ti_ab-E149Cmji4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-**Key Findings:**
-- Without semantic information, the system converges incorrectly
-- Our semantic approach enables correct convergence
-- Successfully performs global localization and maintains tracking
-
 <br>
+
+<div class="row justify-content-center">
+    <div class="col-sm-5 mt-3 mt-md-0 mx-3" style="vertical-align:middle">
+        {% include figure.liquid path="assets/img/paper/shelfmcl/optitrack_trajectory_plot.png" title="Ground Truth Trajectory Plot" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-5 mt-3 mt-md-0 mx-3" style="vertical-align:middle">
+        {% include figure.liquid path="assets/img/paper/shelfmcl/particle_filter_trajectory_plot.png" title="Localization Trajectory Plot" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    (Left) Ground truth pose for the above &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    (Right) Localization pose estimates from our system.
+</div>
+
+## Preminary Results
+(Detailed results are coming soon)
+- Without semantic information, the system converges incorrectly.
+- Using semantic information, our system performs robust global localization and maintains it.
+
+
+
+
+
+
+
+
 
 
 
