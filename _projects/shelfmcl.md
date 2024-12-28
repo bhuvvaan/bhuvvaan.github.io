@@ -121,8 +121,7 @@ Semantic information is fused with the depth observation to in a Monte Carlo Loc
     </div>
 </div>
 <div class="caption">
-    (Left) Ground truth pose for the above &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    (Right) Localization pose estimates from our system.
+    (Left) Ground truth pose for the above & (Right) Localization pose estimates from our system.
 </div>
 
 ## Preminary Results
