@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /resume/
-title: Curriculum Vitae
+title: CV
 description: 
 nav: true
 ---

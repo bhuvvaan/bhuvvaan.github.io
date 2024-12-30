@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /press/
-title: Press Coverage
+title: Press
 description: 
 nav: true
 nav_order: 5
