@@ -24,6 +24,8 @@ social: true # includes social icons at the bottom of the page
 
 **Minor-flex** - I have more than 51 millions views on my Google Map [contributions](https://www.google.com/maps/contrib/118433183916755884441/photos/) and have received a rather vibrant pair of socks from Google. And no, that was all I ever got from them.
 
+**Research Abstract:** Recent advances in machine learning, computer vision, sensors, and computing have opened up opportunities to develop practical assistive technologies for real-world applications. However, these technologies have traditionally underutilized key algorithms and techniques from robotics. Concepts from robotics, such as persistent mapping, modeling guidance as a sequential decision-making problem, and social guidance, are essential for building effective assistive autonomy. My research explores some of these use cases and demonstrate how robotics principles can transform assistive technology into a tool for long-term guidance and independence.
+
 **Research Summary:** 
 
 * **Social Goal-Finding and Navigation:**  
