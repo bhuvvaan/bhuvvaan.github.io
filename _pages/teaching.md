@@ -32,7 +32,7 @@ My tutorial on 3-CNF SAT to Subset Sum reduction is the **most watched video on 
 
 ---
 ## FCQs
-**Here is a list of some of the FCQs given by my students**
+**Here are some of the evaluations provided by my students.**
 
 These are by far my most cherished professional achievements. 
 <div class="pdf-container" width="100%" height="4000px">
