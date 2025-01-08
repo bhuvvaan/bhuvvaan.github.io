@@ -2,7 +2,7 @@
 layout: page
 title: ShelfMCL - Semantic particle filter localization with low-cost sensors
 date: 2024-05-20
-description:
+description: 2023-2024 - Paper in progress
 img: assets/img/paper/shelfmcl/husky.gif
 # img: https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMzgyNjcyLWltYWdlLWt3eXFrZHR5LmpwZw.jpg?s=5i_WsjSiGsjd3dh0cW88obuceCo8lP2eP7-3WYh62qs
 # redirect: https://unsplash.com
