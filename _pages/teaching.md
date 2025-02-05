@@ -18,7 +18,7 @@ nav_order: 6
 
 ## YouTube
 **Foundations of Aerospace - Check back by Summer 2025**  
-I believe that people often learn Aerospace Engineering through formulas rather than understanding the subject from first principles. My goal is to make aerospace education easily understandable by teaching it from first principles.
+I believe that people often learn Aerospace Engineering through formulas rather than understanding the subject from first principles and my goal is to change that.
 
 <!--
 My tutorial on 3-CNF SAT to Subset Sum reduction is the **most watched video on the topic** on the internet. 
