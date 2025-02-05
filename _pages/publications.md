@@ -8,26 +8,24 @@ nav: true
 nav_order: 2
 ---
 
-**Coming Soon!** <!-- This text will be visible -->
+**Check back by Summer 2025!**
 
+{% comment %}
 <!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-5B0RHBKFCE"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5B0RHBKFCE"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-5B0RHBKFCE');
-</script> -->
+</script>
 
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
-
-<!-- {% include bib_search.liquid %}
+{% include bib_search.liquid %}
 
 <div class="publications">
-
 {% bibliography %}
-
-</div> -->
+</div>
+{% endcomment %}
