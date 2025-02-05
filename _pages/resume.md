@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /resume/
-title: CV
+title: Resume
 description: 
 nav: true
 ---
-Last Updated: Dec 2024
+Last Updated: Feb 2025
 
-For best viewing experience, view it on desktop or android. The pdf (3 pages) does not load completely on IOS devices.
+For best viewing experience, view it on desktop.
 <!-- &nbsp;&nbsp;&nbsp;[(Downloadable link)](https://shivendraagrawal.github.io/assets/pdf/resume.pdf) -->
 
 <div class="pdf-container" width="100%" height="2000px">
