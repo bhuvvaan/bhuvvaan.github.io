@@ -9,15 +9,15 @@ nav_order: 6
 
 ## Teaching Assistant
 
-1. **CSCI 3104 Algorithms** – *Outstanding TA award (2017-2018, 2018-2019)*
-2. **CSCI 3002 HCI** – *2020 Fall*
-3. **CSCI 3302 Intro to Robotics** – *David T. Spalding Graduate Teaching Fund Fellowship for excellence in teaching (2021-2022)*
-4. **CSCI 4302/5302 Advanced Robotics** – *2023 Spring*
+1. **ASEN 4013 Foundations of Propulsion** – *Fall 2023 with Prof. [James Nabity](https://www.colorado.edu/aerospace/james-nabity)*
+2. **ASEN 5053 Space Propulsion** – *Spring 2024 with Prof. [James Nabity](https://www.colorado.edu/aerospace/james-nabity)*
+3. **ASEN 4013 Foundations of Propulsion** – *Fall 2024 (Lead TA) with Prof. [James Nabity](https://www.colorado.edu/aerospace/james-nabity)*
+4. **ASEN 4013 Foundations of Propulsion** – *Spring 2025 with Prof. [Timothy Minton](https://www.colorado.edu/aerospace/timothy-k-minton)*
 
 ---
 
 ## YouTube
-**Coming Soon!**  
+**Foundations of Aerospace - Coming Soon!**  
 I believe that people often learn Aerospace Engineering through formulas rather than understanding the subject from first principles. My goal is to make aerospace education easily understandable by teaching it from first principles.
 
 <!--
