@@ -6,7 +6,7 @@ subtitle: Data Scientist
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: profile_pic_2.jpg
   image_circular: true # crops the image to make it circular
   more_info: 
 
