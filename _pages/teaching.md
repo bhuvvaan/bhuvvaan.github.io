@@ -17,7 +17,7 @@ nav_order: 6
 ---
 
 ## YouTube
-**Foundations of Aerospace - Check back by summer 2025**  
+**Foundations of Aerospace - Check back by Summer 2025**  
 I believe that people often learn Aerospace Engineering through formulas rather than understanding the subject from first principles. My goal is to make aerospace education easily understandable by teaching it from first principles.
 
 <!--
