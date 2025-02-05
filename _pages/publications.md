@@ -7,6 +7,9 @@ years:  [2023, 2022, 2019]
 nav: true
 nav_order: 2
 ---
+
+**Coming Soon!** <!-- This text will be visible -->
+
 <!-- Google tag (gtag.js) -->
 <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-5B0RHBKFCE"></script>
 <script>
@@ -21,13 +24,10 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
+<!-- {% include bib_search.liquid %}
 
 <div class="publications">
 
 {% bibliography %}
 
-</div>
-
-
----
+</div> -->
