@@ -8,6 +8,7 @@ img: assets/img/demo_smartcane.jpeg
 importance: 1
 category: work
 ---
+
     Team members:
     Shivendra Agrawal (Lead)
     Mary Etta West (Ph.D. researcher)
@@ -17,6 +18,7 @@ category: work
 
 <br /><br />
 **Paper**
+
 <div class="publications">
 {% bibliography -f papers -q @*[topic=social_guidance]* %}
 </div>
@@ -36,20 +38,22 @@ blind people to exercise the nuances of seat choices.
 </div>
 
 <br /><br />
-**System Demo Video (same as the above gif)** 
+**System Demo Video (same as the above gif)**
+
 <div class="video-container">
 <iframe src="https://www.youtube.com/embed/fcOJgpEuN9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <br /><br />
 **Paper presentation @ IROS 22 Kyoto, Japan**
+
 <div class="video-container">
 <iframe src="https://www.youtube.com/embed/6lmUHh1aFFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-
 <br /><br />
 **Poster**
+
 <div class="pdf-container" width="100%" height="800px" >
   <iframe 
     src="/assets/pdf/SeatTakenIROS22.pdf#toolbar=1" 
@@ -57,5 +61,3 @@ blind people to exercise the nuances of seat choices.
     allowfullscreen>
   </iframe>
 </div>
-
-

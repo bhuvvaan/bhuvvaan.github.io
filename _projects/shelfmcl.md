@@ -18,6 +18,7 @@ category: work
     Bradley Hayes (Advisor)
 
 ## Overview
+
 - **Problem:** Estimating where an autonomous system is in a dynamic and cluttered environment such as a grocery store is challenging and unsolved. Such localization ability is essential to providing navigation guidance.
 <div class="row justify-content-center">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -27,7 +28,9 @@ category: work
 - **Solution:** We present a novel Semantic Monte Carlo Localization algorithm that requires just an RGB-D camera and a visual odometry camera. Our system can be **1.** mounted on a cart or **2.** worn as a wearable.
 
 ## Challenges
+
 **Environmental Complexity:**
+
 - The uniform and symmetric nature of aisles makes depth or LiDAR observations essentially featureless and unreliable.
 <div class="row justify-content-center">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -58,7 +61,8 @@ Our system uses low-cost sensors such as an RGB-D camera and a visual odometry c
 </div>
 
 **Modularity**
-- **Mountable on Carts/Strollers:**  Can add autonomous capabilities to existing equipment.
+
+- **Mountable on Carts/Strollers:** Can add autonomous capabilities to existing equipment.
 - **Wearable:** Can support assistive technology for navigation.
 
 <div class="row justify-content-center">
@@ -74,7 +78,7 @@ Our system uses low-cost sensors such as an RGB-D camera and a visual odometry c
 ## Algorithm
 
 - ### Semantic Mapping
-We trained a custom classifier to classify products into a fixed number of classes.
+  We trained a custom classifier to classify products into a fixed number of classes.
 
 <div class="row justify-content-center">
     <div class="col-sm-4 mt-3 mt-md-0 mx-3" style="vertical-align:middle">
@@ -86,7 +90,7 @@ We trained a custom classifier to classify products into a fixed number of class
 </div>
 
 - ### Pose Correction
-Real-world pose estimates obtained through inverse camera projection are refined using ray casting on the semantic map.
+  Real-world pose estimates obtained through inverse camera projection are refined using ray casting on the semantic map.
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0" style="vertical-align:middle">
@@ -125,22 +129,8 @@ Semantic information is fused with the depth observation to in a Monte Carlo Loc
 </div>
 
 ## Preminary Results
+
 (Detailed results are coming soon)
+
 - Without semantic information, the system converges incorrectly.
 - Using semantic information, our system performs robust global localization and maintains it.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

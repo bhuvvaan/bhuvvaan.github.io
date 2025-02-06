@@ -2,12 +2,14 @@
 layout: page
 permalink: /resume/
 title: Resume
-description: 
+description:
 nav: true
 ---
+
 Last Updated: Feb 2025
 
 For best viewing experience, view it on desktop.
+
 <!-- &nbsp;&nbsp;&nbsp;[(Downloadable link)](https://shivendraagrawal.github.io/assets/pdf/resume.pdf) -->
 
 <div class="pdf-container" width="100%" height="2000px">

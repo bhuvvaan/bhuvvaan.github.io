@@ -16,10 +16,10 @@ category: work
     Dusty Woods (Lab Manager)
     Bradley Hayes (Advisor)
 
-
 We developed a proof-of-concept system that employs a **Vision Language Model (VLM)**—specifically GPT-4o—and a **mobile robot** (Husky) to autonomously detect and explain spatial anomalies by analyzing discrepancies in human spatial behavior.
 
 **Video with sound (recommended version)**
+
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/FFp-1QLnzFU?si=2EKbECgxB7jOV99D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -27,8 +27,8 @@ We developed a proof-of-concept system that employs a **Vision Language Model (V
 
 <br /><br />
 **Poster**
+
 <div class="pdf-container" height="1000px">
     <iframe src="/assets/pdf/AnomalyNEC24.pdf#toolbar=1" allow="autoplay"></iframe>
 </div>
 <br /><br />
-

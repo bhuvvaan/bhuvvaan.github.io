@@ -10,13 +10,11 @@ importance: 1
 category: work
 ---
 
-
     Team members:
-    Shivendra Agrawal 
+    Shivendra Agrawal
     Saumya Sinha
     Shayon Gupta
     Daniel Szafir (Professor)
-
 
 ## Overview
 
@@ -25,7 +23,7 @@ We developed a proof-of-concept augmented reality ARKit app that can parse text 
 ## Preparing ARKit
 
 **Spatial Mapping:**
-  First, spatially map the surrounding environment. The yellow dots represent feature points indicating that ARKit is perceiving and mapping the environment.
+First, spatially map the surrounding environment. The yellow dots represent feature points indicating that ARKit is perceiving and mapping the environment.
 
   <div class="row">
       <div class="col-sm mt-3 mt-md-0" style="vertical-align:middle">
@@ -37,7 +35,7 @@ We developed a proof-of-concept augmented reality ARKit app that can parse text 
 ## Parsing and Visualizing Text in a Scene
 
 **Text Recognition and Visualization:**
-  EduAR utilizes the LSTM mode of Tesseract OCR to read text from paper. It visualizes this by displaying 3D text on a floating plane in AR, anchored to the real-world text location.
+EduAR utilizes the LSTM mode of Tesseract OCR to read text from paper. It visualizes this by displaying 3D text on a floating plane in AR, anchored to the real-world text location.
 
   <div class="row">
       <div class="col-sm mt-3 mt-md-0" style="vertical-align:middle">
@@ -49,12 +47,13 @@ We developed a proof-of-concept augmented reality ARKit app that can parse text 
 ## Visual Aide Text Editor
 
 **Interactive Text Editing:**
-  The Visual Aide Text Editor allows learners to generate visually anchored 3D text for all texts in a scene. Users can tap desired text segments to input visual aids.
+The Visual Aide Text Editor allows learners to generate visually anchored 3D text for all texts in a scene. Users can tap desired text segments to input visual aids.
 
-  **Text Editor Features**
-  - **Standard Options:** Copy, share, and define text.
-  - **Unique Read Mode:** Focus on one paragraph, sentence, or word at a time, with swipe navigation.
-  - **Real-Time Font Size Adjustment:** Modify font size on-the-fly for convenience.
+**Text Editor Features**
+
+- **Standard Options:** Copy, share, and define text.
+- **Unique Read Mode:** Focus on one paragraph, sentence, or word at a time, with swipe navigation.
+- **Real-Time Font Size Adjustment:** Modify font size on-the-fly for convenience.
 
   <div class="row">
       <div class="col-sm mt-3 mt-md-0" style="vertical-align:middle">
@@ -66,9 +65,10 @@ We developed a proof-of-concept augmented reality ARKit app that can parse text 
 ## 3D Objects Integration
 
 **Enhancing Visual Learning:**
-  - **Double Tap to Visualize:** Users can double-tap anywhere on the screen to spawn a 3D object on a detected plane.
-  - **Object Interaction:** The spawned 3D objects can be rotated and resized using pinch gestures (movement is restricted).
-  - **Object Database:** Objects are selected from a predefined database and are contextually linked to the scanned text, aiding visual learners in grasping concepts better.
+
+- **Double Tap to Visualize:** Users can double-tap anywhere on the screen to spawn a 3D object on a detected plane.
+- **Object Interaction:** The spawned 3D objects can be rotated and resized using pinch gestures (movement is restricted).
+- **Object Database:** Objects are selected from a predefined database and are contextually linked to the scanned text, aiding visual learners in grasping concepts better.
 
   <div class="row">
       <div class="col-sm mt-3 mt-md-0" style="vertical-align:middle">
@@ -81,5 +81,5 @@ We developed a proof-of-concept augmented reality ARKit app that can parse text 
 
 1. **Download the Code:**
    Clone the repository to your local machine:
-   
+
    `git clone https://github.com/ShivendraAgrawal/EduAR.git`

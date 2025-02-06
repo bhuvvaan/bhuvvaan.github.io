@@ -18,11 +18,12 @@ category: work
 
 <br /><br />
 **Papers**
+
 <div class="publications">
 {% bibliography -f papers -q @*[topic=shelfhelp]* %}
 </div>
 
-We are working towards making an end-to-end system that can assist with independent grocery shopping as shopping with sighted guide is prohibitive and often causes a loss of privacy. Grocery shopping primarily consists of three main subtasks: **navigation**, **product retrieval**, and **product examination**. Our current work focuses on **product retrieval**. *ShelfHelp* can locate items on the shelf and verbally provide fine-grain manipulation guidance to help people retrieve the desired item from an aisle. 
+We are working towards making an end-to-end system that can assist with independent grocery shopping as shopping with sighted guide is prohibitive and often causes a loss of privacy. Grocery shopping primarily consists of three main subtasks: **navigation**, **product retrieval**, and **product examination**. Our current work focuses on **product retrieval**. _ShelfHelp_ can locate items on the shelf and verbally provide fine-grain manipulation guidance to help people retrieve the desired item from an aisle.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" style="vertical-align:middle">
@@ -52,6 +53,7 @@ We are working towards making an end-to-end system that can assist with independ
 
 <br /><br />
 **Poster**
+
 <div class="pdf-container" height="1000px">
     <iframe src="/assets/pdf/ShelfHelpAAMAS23.pdf#toolbar=1" allow="autoplay"></iframe>
 </div>
@@ -90,5 +92,3 @@ We are working towards making an end-to-end system that can assist with independ
 <div class="caption">
     (Left to right) A sample of discrete commands. The movement (in meters) each command caused. MDP and solution definition. We train a model of human hand movement from demonstrations that inform the transition probabilities T. S defines the state space, A defines the discrete set of verbal actions, and R is the reward function. A policy is learned offline that can be used across reaching tasks.
 </div>
-
-

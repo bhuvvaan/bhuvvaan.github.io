@@ -2,7 +2,7 @@
 layout: page
 permalink: /bookshelf/
 title: Bookshelf
-description: 
+description:
 nav: true
 nav_order: 6
 ---
@@ -14,22 +14,26 @@ I prefer reading books in my free time (on the bus or during breaks at the gym)�
 ---
 
 ### Non-Fiction
+
 All great books, highly recommend them!
-- **Man’s Search for Meaning** by Victor Frankl  
-- **Ignited Minds** by A.P.J. Abdul Kalam  
-- **How to Win Friends and Influence People** by Dale Carnegie  
-- **Scary Smart** by Mo Gawdat  
-- **Solve for Happy** by Mo Gawdat *(currently reading)*  
-- **Zero to One** by Peter Thiel *(currently reading)*  
+
+- **Man’s Search for Meaning** by Victor Frankl
+- **Ignited Minds** by A.P.J. Abdul Kalam
+- **How to Win Friends and Influence People** by Dale Carnegie
+- **Scary Smart** by Mo Gawdat
+- **Solve for Happy** by Mo Gawdat _(currently reading)_
+- **Zero to One** by Peter Thiel _(currently reading)_
 
 ### Biography
-- **Wings of Fire** by A.P.J. Abdul Kalam  
+
+- **Wings of Fire** by A.P.J. Abdul Kalam
 
 ## Technical
-- **Designing Machine Learning Systems** by Chip Huygen *(currently reading)*
+
+- **Designing Machine Learning Systems** by Chip Huygen _(currently reading)_
 
 ### Fiction
-- **Inferno** by Dan Brown  
-- **Digital Fortress** by Dan Brown  
-- **The Bourne Supremacy** by Robert Ludlum 
 
+- **Inferno** by Dan Brown
+- **Digital Fortress** by Dan Brown
+- **The Bourne Supremacy** by Robert Ludlum
