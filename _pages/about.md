@@ -23,4 +23,4 @@ Currently, I am conducting research on using diffusion models to generate effici
 
 Beyond academics, I love running around Boulder’s scenic trails (I highly recommend running a marathon in Boulder), dancing, playing the guitar, and hitting the gym.
 
-The best way to reach me is my email. I am always down to collaborate and discuss my work or yours if I am knowledgeable about it. Shoot me an email.
+The best way to reach me is my email. I am always down to collaborate and discuss my work or yours if I am knowledgeable about it.
