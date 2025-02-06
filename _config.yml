@@ -409,7 +409,7 @@ navbar_fixed_pages:
   - projects
   - publications
   - teaching
-  - press
+  - bookshelf
 
 # Google search
 enable_google_search:    true  # enables google custom search
