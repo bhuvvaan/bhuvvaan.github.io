@@ -1,18 +1,14 @@
 ---
 layout: page
-title: PPTGaze - PPT Generation Service
-date: 2023-12-12
-description: Final course project for the course data center scale computing
-img: assets/img/dcsc project proposal 2.png
+title: Use EpyMARL on custon RWARE layouts
+date: 2025-02-06
+description: Part of a bigger project on efficient environment generation
+img: assets/img/epymarl-rware.gif
 importance: 1
 category: work
 ---
 
-    Team members:
-    Bhuvvaan Punukolu
-    Prathik Jain
-
-# PPTGaze: PPT Generation Service
+# Custom RWARE training
 
 This repository includes the complete code to build a software service using Kubernetes that takes a video as input and returns a downloadable PPT presentation. Since the code is containerized using Docker, no additional requirements need to be installed. We recommend using Docker Desktop for running the Kubernetes service.
 
