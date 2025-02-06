@@ -7,18 +7,18 @@ nav: true
 nav_order: 6
 ---
 
-# Welcome to My Bookshelf
+## Welcome to My Bookshelf
 
-I prefer reading books in my free time (on the bus or during breaks at the gym)—either on my phone or as a hardcover—compared to checking social media.
+I prefer reading books in my free time (on the bus or during breaks at the gym)—either on my phone or as a hardcover. Here we go.
 
 ---
 
-## Fiction
+### Fiction
 - **Inferno** by Dan Brown  
 - **Digital Fortress** by Dan Brown  
 - **The Bourne Supremacy** by Robert Ludlum  
 
-## Non-Fiction
+### Non-Fiction
 All great books, highly recommend them!
 - **Man’s Search for Meaning** by Victor Frankl  
 - **Ignited Minds** by A.P.J. Abdul Kalam  
@@ -27,7 +27,7 @@ All great books, highly recommend them!
 - **Solve for Happy** by Mo Gawdat *(currently reading)*  
 - **Zero to One** by Peter Thiel *(currently reading)*  
 
-## Biography
+### Biography
 - **Wings of Fire** by A.P.J. Abdul Kalam  
 
 ## Technical
