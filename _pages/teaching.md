@@ -8,6 +8,7 @@ nav_order: 6
 ---
 
 ## Teaching Assistant
+Department of Aerospace Engineering, University of Colorado Boulder
 
 1. **ASEN 4013 Foundations of Propulsion** – *Fall 2023 with Prof. [James Nabity](https://www.colorado.edu/aerospace/james-nabity)*
 2. **ASEN 5053 Space Propulsion** – *Spring 2024 with Prof. [James Nabity](https://www.colorado.edu/aerospace/james-nabity)*
@@ -17,7 +18,7 @@ nav_order: 6
 ---
 
 ## YouTube
-**Foundations of Aerospace - Check back by Summer 2025!**  
+**Foundations of Aerospace - Coming Soon!**  
 I believe that people often learn Aerospace Engineering through formulas rather than understanding the subject from first principles and my goal is to change that.
 
 <!--
