@@ -13,11 +13,6 @@ I prefer reading books in my free time (on the bus or during breaks at the gym)â
 
 ---
 
-### Fiction
-- **Inferno** by Dan Brown  
-- **Digital Fortress** by Dan Brown  
-- **The Bourne Supremacy** by Robert Ludlum  
-
 ### Non-Fiction
 All great books, highly recommend them!
 - **Manâ€™s Search for Meaning** by Victor Frankl  
@@ -33,6 +28,10 @@ All great books, highly recommend them!
 ## Technical
 - **Designing Machine Learning Systems** by Chip Huygen *(currently reading)*
 
+### Fiction
+- **Inferno** by Dan Brown  
+- **Digital Fortress** by Dan Brown  
+- **The Bourne Supremacy** by Robert Ludlum  
 
 ---
 
