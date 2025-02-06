@@ -5,8 +5,8 @@ title: PPTGaze: PPT Generation Service
 date: 2023-12-12
 description: Final course project for the course data center scale computing
 img: assets/img/dcsc project proposal 2.png
-# img:https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMzgyNjcyLWltYWdlLWt3eXFrZHR5LmpwZw.jpg?s=5i_WsjSiGsjd3dh0cW88obuceCo8lP2eP7-3WYh62qs
-# redirect: https://unsplash.com
+#img:https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMzgyNjcyLWltYWdlLWt3eXFrZHR5LmpwZw.jpg?s=5i_WsjSiGsjd3dh0cW88obuceCo8lP2eP7-3WYh62qs
+#redirect: https://unsplash.com
 importance: 1
 category: work
 ---
