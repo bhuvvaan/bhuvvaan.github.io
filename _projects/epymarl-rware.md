@@ -10,37 +10,38 @@ category: work
 
 # Custom RWARE training
 
-This repository includes the complete code to build a software service using Kubernetes that takes a video as input and returns a downloadable PPT presentation. Since the code is containerized using Docker, no additional requirements need to be installed. We recommend using Docker Desktop for running the Kubernetes service.
+# Using EpyMARL for RWARE
 
-## How to Use
+EpyMARL is a helpful repository for running multi-agent RL problems. For my work I modified it to easily run for a custom RWARE environment.
 
-1. Start the Kubernetes service on Docker Desktop.
-2. Run the following command from the root folder to deploy all required components:
+To register a custom RWARE environment, go to epymarl-rware/src/marl.py file and give the layout of the custom environment. To register the environment just run marl.py file.
 
-    ```bash
-    bash deploy-all.sh
-    ```
+To train a RL algorithm on the environment use the command.
 
-3. Open a browser and navigate to:
+```shell
+python src/main.py --config=qmix --env-config=gymma with env_args.time_limit=500 env_args.key="marl:your-env-name" save_model=True
+```
 
-    ```
-    http://localhost
-    ```
+If common reward is insufficient and individual rewards are needed, ```common_reward=False```.
 
-4. Log in to the service.
-5. Upload an MP4 video file when prompted.
-6. After processing, you will receive a prompt to download the generated PPT file.
+```shell
+python src/main.py --config=qmix --env-config=gymma with env_args.time_limit=500 env_args.key="marl:your-env-name" save_model=True common_reward=False
+```
 
----
 
-Feel free to reach out for any comments!
+To visualize results, run from the root folder, after selecting the required metric.
 
-**Video with sound (recommended version)**
+```shell
+ python3 plot_results.py --path ./results/sacred/qmix/your-env-name --metric test_return_mean --save_dir ./plots
+```
 
-<div class="video-container">
-    <iframe src="https://www.youtube.com/watch?v=hMuxLK65RBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<br />
+To render results, run from the root folder, after selecting the required model.
 
-<br /><br />
+```shell
+ python src/main.py --config=qmix --env-config=gymma with env_args.time_limit=25 env_args.key="marl:r-tiny-2ag-v2" checkpoint_path="./results/models/your-model-folder" evaluate=True render=True
+```
+
+For readme of EpyMARL, visit [https://github.com/uoe-agents/epymarl/blob/main/README.md](url)
+ 
+
 
