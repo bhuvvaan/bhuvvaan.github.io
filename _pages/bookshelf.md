@@ -9,7 +9,7 @@ nav_order: 6
 
 ## Welcome to My Bookshelf
 
-I prefer reading books in my free time (on the bus or during breaks at the gym)—either on my phone or as a hardcover. Here we go.
+I prefer reading books in my free time (on the bus or during breaks at the gym)—either on my phone or as a hardcover. Here are the books I read.
 
 ---
 
