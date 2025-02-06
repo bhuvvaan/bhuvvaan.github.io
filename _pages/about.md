@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a master’s student in Data Science at the University of Colorado Boulder, focusing on Machine Learning and Artificial Intelligence.
+Welcome to my website! I am a master’s student in Data Science at the University of Colorado Boulder, focusing on Machine Learning and Artificial Intelligence.
 
 Originally from an Aerospace Engineering background—which I still enjoy teaching when I can—I pivoted into Data Science a few years ago and eventually made it my full-time focus. I have industry experience working as a Data Scientist at Flipkart, India’s largest e-commerce company.
 
