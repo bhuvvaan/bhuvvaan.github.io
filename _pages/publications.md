@@ -8,7 +8,7 @@ nav: true
 nav_order: 2
 ---
 
-**Coming soon!**
+**Coming Soon!**
 
 {% comment %}
 <!-- Google tag (gtag.js) -->
