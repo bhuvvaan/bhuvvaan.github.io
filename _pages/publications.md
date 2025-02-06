@@ -8,7 +8,7 @@ nav: true
 nav_order: 2
 ---
 
-**Check back by Summer 2025!**
+**Coming soon!**
 
 {% comment %}
 <!-- Google tag (gtag.js) -->
