@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: PPTGaze: PPT Generation Service
@@ -39,11 +38,6 @@ This repository includes the complete code to build a software service using Kub
 ---
 
 Feel free to reach out for any comments!
-
-Credits:
-Bhuvvaan Punukolu &
-Prathik Jain
-
 
 **Video with sound (recommended version)**
 
