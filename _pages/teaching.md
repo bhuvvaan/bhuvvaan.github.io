@@ -19,7 +19,7 @@ Department of Aerospace Engineering, University of Colorado Boulder
 
 ## YouTube
 **Foundations of Aerospace - Coming Soon!**  
-I believe that people often learn Aerospace Engineering through formulas rather than understanding the subject from first principles and my goal is to change that.
+I believe that people often learn Aerospace Engineering through formulas rather than understanding it from first principles. My goal is to change that.
 
 <!--
 My tutorial on 3-CNF SAT to Subset Sum reduction is the **most watched video on the topic** on the internet. 
