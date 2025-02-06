@@ -22,3 +22,5 @@ Originally from an Aerospace Engineering background—which I still enjoy teachi
 Currently, I am conducting research on using diffusion models to generate efficient multi-agent warehouse layouts that improve throughput. I’m affiliated with the [CAIRO](https://cairo-lab.com/lab.html) (Collaborative AI and Robotics Lab) and [HIRO](https://hiro-group.ronc.one/) (Human Interaction and Robotics Group) on campus, where I strive to apply reinforcement learning and neural networks to solve real-world problems.
 
 Beyond academics, I love running around Boulder’s scenic trails (I highly recommend running a marathon in Boulder), dancing, playing the guitar, and hitting the gym.
+
+The best way to reach me is my email. I am always down to collaborate and discuss my work or yours if I am knowledgeable about it. Shoot me an email.
