@@ -19,7 +19,7 @@ I am a master’s student in Data Science at the University of Colorado Boulder,
 
 Originally from an Aerospace Engineering background—which I still enjoy teaching when I can—I pivoted into Data Science a few years ago and eventually made it my full-time focus. I have industry experience working as a Data Scientist at Flipkart, India’s largest e-commerce company. 
 
-Currently, I am conducting research on using diffusion models to generate efficient multi-agent warehouse layouts that improve throughput. I’m affiliated with the [CAIRO](https://cairo-lab.com/lab.html) *(Collaborative AI and Robotics Lab)*  and [HIRO](https://hiro-group.ronc.one/) *(Human Interaction and Robotics Group)* on campus, where I strive to apply reinforcement learning and neural networks to solve real-world problems. 
+Currently, I am conducting research on using diffusion models to generate efficient multi-agent warehouse layouts that improve throughput. I’m affiliated with the [CAIRO](https://cairo-lab.com/lab.html) (Collaborative AI and Robotics Lab)  and [HIRO](https://hiro-group.ronc.one/) (Human Interaction and Robotics Group) on campus, where I strive to apply reinforcement learning and neural networks to solve real-world problems. 
 
-Beyond academics, I love running around Boulder’s scenic trails *(I highly recommend running a marathon in Boulder)*, dancing, playing the guitar, and hitting the gym.
+Beyond academics, I love running around Boulder’s scenic trails (I highly recommend running a marathon in Boulder), dancing, playing the guitar, and hitting the gym.
 
