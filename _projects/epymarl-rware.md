@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Use EpyMARL on custon RWARE layouts
+title: Using EpyMARL on custon RWARE layouts
 date: 2025-02-06
 description: Part of a bigger project on efficient environment generation
 img: assets/img/epymarl-rware.gif
@@ -8,13 +8,20 @@ importance: 1
 category: work
 ---
 
-# Custom RWARE training
-
-# Using EpyMARL for RWARE
+## Custom RWARE training
 
 EpyMARL is a helpful repository for running multi-agent RL problems. For my work I modified it to easily run for a custom RWARE environment.
 
-To register a custom RWARE environment, go to epymarl-rware/src/marl.py file and give the layout of the custom environment. To register the environment just run marl.py file.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" style="vertical-align:middle">
+        {% include figure.liquid path="assets/img/epymarl-rware.png" title="Custom warehouse with four agents" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   This is a custom 10x10 grid that was generated and trained using EpyMARL.
+</div>
+
+To register a custom RWARE environment, go to epymarl-rware/src/marl.py file and give the layout of the custom environment. 
 
 To train a RL algorithm on the environment use the command.
 
