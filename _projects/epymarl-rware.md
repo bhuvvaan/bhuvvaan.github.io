@@ -12,12 +12,14 @@ category: work
 
 EpyMARL is a helpful repository for running multi-agent RL problems. For my work I modified it to easily run for a custom RWARE environment.
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0 text-center" style="max-width:300px;">
+<div class="row justify-content-center">
+  <div class="col-auto text-center">
+    <!-- The inline style below limits the figure to 300px wide -->
     {% include figure.liquid 
       path="assets/img/epymarl-rware.png" 
-      title="Custom warehouse with four agents" 
+      title="Custom warehouse with four agents"
       class="img-fluid d-block mx-auto rounded z-depth-1" 
+      style="max-width: 300px;"
     %}
   </div>
 </div>
