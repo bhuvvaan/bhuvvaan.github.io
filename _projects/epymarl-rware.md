@@ -53,4 +53,4 @@ To render results, run from the root folder, after selecting the required model.
  python src/main.py --config=qmix --env-config=gymma with env_args.time_limit=25 env_args.key="marl:r-tiny-2ag-v2" checkpoint_path="./results/models/your-model-folder" evaluate=True render=True
 ```
 
-For readme of EpyMARL, visit [https://github.com/uoe-agents/epymarl/blob/main/README.md](url)
+For readme of EpyMARL, visit [https://github.com/uoe-agents/epymarl/blob/main/README.md](https://github.com/uoe-agents/epymarl/blob/main/README.md)
