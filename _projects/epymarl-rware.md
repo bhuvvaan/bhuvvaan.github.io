@@ -13,13 +13,18 @@ category: work
 EpyMARL is a helpful repository for running multi-agent RL problems. For my work I modified it to easily run for a custom RWARE environment.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="vertical-align:middle; max-width:400px;">
-        {% include figure.liquid path="assets/img/epymarl-rware.png" title="Custom warehouse with four agents" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0 text-center" style="max-width:300px;">
+    {% include figure.liquid 
+      path="assets/img/epymarl-rware.png" 
+      title="Custom warehouse with four agents" 
+      class="img-fluid d-block mx-auto rounded z-depth-1" 
+    %}
+  </div>
 </div>
-<div class="caption">
+<div class="caption text-center">
    This is a custom 10x10 grid that was generated and trained using EpyMARL.
 </div>
+
 
 To register a custom RWARE environment, go to epymarl-rware/src/marl.py file and give the layout of the custom environment. 
 
