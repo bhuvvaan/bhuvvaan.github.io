@@ -8,6 +8,7 @@ img: assets/img/paper/shelfhelp/demo.gif
 # redirect: https://unsplash.com
 importance: 1
 category: work
+nav: false
 ---
 
     Team members:
