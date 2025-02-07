@@ -21,15 +21,15 @@ This repository includes the complete code to build a software service using Kub
 1. Start the Kubernetes service on Docker Desktop.
 2. Run the following command from the root folder to deploy all required components:
 
-    ```bash
-    bash deploy-all.sh
-    ```
+   ```bash
+   bash deploy-all.sh
+   ```
 
 3. Open a browser and navigate to:
 
-    ```
-    http://localhost
-    ```
+   ```
+   http://localhost
+   ```
 
 4. Log in to the service.
 5. Upload an MP4 video file when prompted.

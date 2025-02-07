@@ -20,4 +20,4 @@ Department of Aerospace Engineering, University of Colorado Boulder
 
 ## YouTube
 
-**Foundations of Aerospace - Coming Soon!**  
+**Foundations of Aerospace - Coming Soon!**
