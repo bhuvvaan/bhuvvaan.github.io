@@ -7,6 +7,7 @@ img: assets/img/demo_smartcane.jpeg
 # redirect: https://unsplash.com
 importance: 1
 category: work
+nav: false
 ---
 
     Team members:
