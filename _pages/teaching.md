@@ -21,18 +21,3 @@ Department of Aerospace Engineering, University of Colorado Boulder
 ## YouTube
 
 **Foundations of Aerospace - Coming Soon!**  
-<!--
-My tutorial on 3-CNF SAT to Subset Sum reduction is the **most watched video on the topic** on the internet.
-Check out the nice comments I got :)
-
-[[Link to the YouTube tutorial]](https://youtu.be/k8RkYp5KhhU?si=-LQI-fJ0rnPpG4gg)
-
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/k8RkYp5KhhU"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-    </iframe>
-</div>
--->
