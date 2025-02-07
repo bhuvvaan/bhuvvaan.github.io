@@ -16,6 +16,21 @@ category: work
 
 This repository includes the complete code to build a software service using Kubernetes that takes a video as input and returns a downloadable PPT presentation. Since the code is containerized using Docker, no additional requirements need to be installed. We recommend using Docker Desktop for running the Kubernetes service.
 
+<div class="row justify-content-center">
+  <div class="col-auto text-center">
+    <!-- The inline style below limits the figure to 300px wide -->
+    {% include figure.liquid 
+      path="assets/img/dcsc project proposal 2.png" 
+      title="Custom warehouse with four agents"
+      class="img-fluid d-block mx-auto rounded z-depth-1" 
+      style="max-width: 300px;"
+    %}
+  </div>
+</div>
+<div class="caption text-center">
+   An architecture diagram of the entire service.
+</div>
+
 ## How to Use
 
 1. Start the Kubernetes service on Docker Desktop.
