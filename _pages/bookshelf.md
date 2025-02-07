@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-Welcome to My Bookshelf. Here you can find the books I read.
+Welcome to my Bookshelf. Here you can find the books I read.
 
 ---
 
