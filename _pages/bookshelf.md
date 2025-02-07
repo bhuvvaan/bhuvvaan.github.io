@@ -7,9 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-## Welcome to My Bookshelf
-
-I prefer reading books in my free time (on the bus or during breaks at the gym)—either on my phone or as a hardcover. Here are the books I read.
+Welcome to My Bookshelf. Here you can find the books I read.
 
 ---
 
