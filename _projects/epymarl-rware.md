@@ -10,7 +10,7 @@ category: work
 
 ## Github Repo
 
-(https://github.com/bhuvvaan/epymarl-rware)[https://github.com/bhuvvaan/epymarl-rware]
+[https://github.com/bhuvvaan/epymarl-rware](https://github.com/bhuvvaan/epymarl-rware)
 
 ## Custom RWARE training
 
