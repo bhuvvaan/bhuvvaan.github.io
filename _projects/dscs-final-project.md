@@ -31,6 +31,10 @@ This repository includes the complete code to build a software service using Kub
    An architecture diagram of the entire service.
 </div>
 
+## Github Repo
+
+(https://github.com/bhuvvaan/dcsc-final-projet)[https://github.com/bhuvvaan/dcsc-final-projet]
+
 ## How to Use
 
 1. Start the Kubernetes service on Docker Desktop.
