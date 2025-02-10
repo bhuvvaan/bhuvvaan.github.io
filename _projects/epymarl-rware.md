@@ -8,6 +8,10 @@ importance: 1
 category: work
 ---
 
+## Github Repo
+
+(https://github.com/bhuvvaan/epymarl-rware)[https://github.com/bhuvvaan/epymarl-rware]
+
 ## Custom RWARE training
 
 EpyMARL is a helpful repository for running multi-agent RL problems. For my work I modified it to easily run for a custom RWARE environment.
