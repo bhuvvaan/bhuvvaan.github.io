@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PPTGaze - PPT Generation Service
-date: 2023-12-12
+date: 2024-12-12
 description: Final course project for the course data center scale computing
 img: assets/img/dcsc project proposal 2.png
 importance: 1
