@@ -21,7 +21,7 @@ This repository includes the complete code to build a software service using Kub
     <!-- The inline style below limits the figure to 300px wide -->
     {% include figure.liquid 
       path="assets/img/dcsc project proposal 2.png" 
-      title="Custom warehouse with four agents"
+      title="An architecture diagram of the entire service."
       class="img-fluid d-block mx-auto rounded z-depth-1" 
       style="max-width: 300px;"
     %}
