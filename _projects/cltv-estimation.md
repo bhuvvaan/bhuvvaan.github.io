@@ -14,11 +14,20 @@ category: work
 
 ## Summary
 
-<p align="center">
-	<!-- <img align="center" width="75%" src="assets/img/blog/RARE/RARE-explain.gif"/> -->
-	{% include figure.liquid path="assets/img/datamining-slide.png" class="img-fluid rounded" %}
-	<br><em><b>Summary of the Project</b></em>
-</p>
+<div class="row justify-content-center">
+  <div class="col-auto text-center">
+    <!-- The inline style below limits the figure to 300px wide -->
+    {% include figure.liquid 
+      path="assets/img/datamining-slide.png" 
+      title="Summary of the Project"
+      class="img-fluid d-block mx-auto rounded z-depth-1" 
+      style="max-width: 300px;"
+    %}
+  </div>
+</div>
+<div class="caption text-center">
+   Summary of the Project
+</div>
 
 ## Project Report
 
