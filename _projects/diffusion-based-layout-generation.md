@@ -12,8 +12,6 @@ category: work
     Bhuvvaan Punukolu
     Yi-Shiuan Tung
 
-# Diffusion-Based Warehouse Layout Generation for Multi-Agent Systems
-
 ## Github Repo
 
 [https://github.com/bhuvvaan/datamining-project](https://github.com/bhuvvaan/epymarl-rware-diffusion)
