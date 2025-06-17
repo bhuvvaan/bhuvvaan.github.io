@@ -3,7 +3,7 @@ layout: page
 title: Diffusion-Based Warehouse Layout Generation for Multi-Agent Systems
 date: 2025-06-01
 description: Research project with CAIRO lab
-img: assets/img/dcsc project proposal 2.png
+img: assets/img/surrogate_model.png
 importance: 1
 category: work
 ---
