@@ -18,5 +18,7 @@ category: work
 
 [https://github.com/bhuvvaan/datamining-project](https://github.com/bhuvvaan/epymarl-rware-diffusion)
 
-## Summary
+## Project Presentation
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR7B8sUxaUNlWSJKhqTcXYFD6E1QfhQSXCLEwm62AQCAUgawLb2XnpbmElkbBPp8LFyebHSepbN8IXL/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
