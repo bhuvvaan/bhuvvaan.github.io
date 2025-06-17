@@ -13,7 +13,7 @@ category: work
 <div class="pdf-container" height="1000px">
     <iframe src="/assets/pdf/stats_final_project_report.pdf#toolbar=1" allow="autoplay"></iframe>
 </div>
-
+<br/><br>
 ## Video
 
 <div class="video-container">
