@@ -3,7 +3,7 @@ layout: page
 title: Binary Depression Classifier
 date: 2024-04-01
 description: Course Project
-img: assets/img/kaplan-estimator.png
+img: assets/img/binary_depression_classifier.png
 importance: 3
 category: work
 ---
