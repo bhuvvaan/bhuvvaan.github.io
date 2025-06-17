@@ -10,7 +10,6 @@ category: work
 
 ## Project Report
 
-<br /><br />
 <div class="pdf-container" height="1000px">
     <iframe src="/assets/pdf/stats_final_project_report.pdf#toolbar=1" allow="autoplay"></iframe>
 </div>
@@ -18,9 +17,7 @@ category: work
 
 ## Video
 
-<br /><br />
 <div class="video-container">
    <iframe width="560" height="315" src="https://www.youtube.com/embed/ELY7cS1KPdA?si=qH3uIDWcbYlN4vdq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<br />
-<br /><br />
+
