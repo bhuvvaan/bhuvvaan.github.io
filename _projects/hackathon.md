@@ -10,8 +10,7 @@ category: work
 
 ## Presentation
 
-<br /><br />
 <div class="pdf-container" height="1000px">
     <iframe src="/assets/pdf/hackathon_presentation_2.pdf#toolbar=1" allow="autoplay"></iframe>
 </div>
-<br /><br />
+
