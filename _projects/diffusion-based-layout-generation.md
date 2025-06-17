@@ -1,8 +1,9 @@
 ---
 layout: page
-title: PPTGaze - PPT Generation Service
-date: 2024-12-12
-description: Final course project for the course data center scale computing
+title: Diffusion-Based Warehouse Layout Generation
+for Multi-Agent Systems
+date: 2025-06-01
+description: Research project with CAIRO lab
 img: assets/img/dcsc project proposal 2.png
 importance: 1
 category: work
@@ -10,9 +11,9 @@ category: work
 
     Team members:
     Bhuvvaan Punukolu
-    Prathik Jain
+    Yi-Shiuan Tung
 
-# PPTGaze: PPT Generation Service
+# Diffusion-Based Warehouse Layout Generation for Multi-Agent Systems
 
 This repository includes the complete code to build a software service using Kubernetes that takes a video as input and returns a downloadable PPT presentation. Since the code is containerized using Docker, no additional requirements need to be installed. We recommend using Docker Desktop for running the Kubernetes service.
 
