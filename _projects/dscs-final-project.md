@@ -58,7 +58,11 @@ This repository includes the complete code to build a software service using Kub
 
 Feel free to reach out if any comments!
 
-DCSC-Project Report- Group 120.pdf
+## Project Report
+
+<div class="pdf-container" height="1000px">
+    <iframe src="/assets/pdf/DCSC-Project Report- Group 120.pdf#toolbar=1" allow="autoplay"></iframe>
+</div>
 
 **Video with sound (recommended version)**
 
