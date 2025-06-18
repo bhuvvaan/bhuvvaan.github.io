@@ -2,7 +2,7 @@
 layout: page
 title: Using EpyMARL on custon RWARE layouts
 date: 2025-02-06
-description: Part of a bigger project on efficient environment generation
+description: Part of a project on efficient environment generation
 img: assets/img/epymarl-rware.gif
 importance: 1
 category: work
