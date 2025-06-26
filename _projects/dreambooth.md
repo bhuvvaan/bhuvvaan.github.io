@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Finetuning Stable Diffusion using Dreambooth
-date: 2025-06-01
-description: Research project with CAIRO lab
+date: 2025-01-01
+description: Research project with HIRO lab
 img: assets/img/surrogate_model.png
 importance: 1
 category: work
