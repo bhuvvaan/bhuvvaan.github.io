@@ -11,7 +11,7 @@ category: work
 
 ## Jupyter Notebook
 
-[cinecipher.ccbp.tech](cinecipher.ccbp.tech)
+[cinecipher.ccbp.tech](https://cinecipher.ccbp.tech/)
 
 ## Project Report
 
