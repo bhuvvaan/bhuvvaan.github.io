@@ -406,7 +406,6 @@ enable_video_embedding: false
 # Navbar fixed pages
 navbar_fixed_pages:
   - about
-  - resume
   - projects
   - publications
   - teaching
