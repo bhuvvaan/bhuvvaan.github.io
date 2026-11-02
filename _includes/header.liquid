@@ -2,27 +2,33 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
+      {% if page.permalink == '/' and site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
+      {% else %}
+        <a class="navbar-brand brand" href="{{ site.baseurl }}/">
+          <span class="brand__mark" aria-hidden="true">
+            {{- site.first_name | slice: 0 -}}
+            {{- site.last_name | slice: 0 -}}
+          </span>
+          <span class="brand__name">
+            {% if site.title == 'blank' %}
+              {% if site.first_name %}
+                <span class="brand__first">
+                  {{- site.first_name -}}
+                </span>
+              {% endif %}
+              {% if site.middle_name %}
+                {{- site.middle_name -}}
+              {% endif %}
+              {% if site.last_name %}
+                {{- site.last_name -}}
+              {% endif %}
+            {% else %}
+              {{- site.title -}}
+            {% endif %}
+          </span>
+        </a>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
@@ -35,9 +41,9 @@
         aria-label="Toggle navigation"
       >
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar top-bar"></span>
-        <span class="icon-bar middle-bar"></span>
-        <span class="icon-bar bottom-bar"></span>
+        <span class="icon-bar top-bar" aria-hidden="true"></span>
+        <span class="icon-bar middle-bar" aria-hidden="true"></span>
+        <span class="icon-bar bottom-bar" aria-hidden="true"></span>
       </button>
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
@@ -111,15 +117,15 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              <button id="search-toggle" title="Search (Ctrl K)" aria-label="Search the site" onclick="openSearchModal()">
+                <span class="nav-link search-pill"><i class="ti ti-search" aria-hidden="true"></i><kbd>Ctrl K</kbd></span>
               </button>
             </li>
           {% endif %}
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
+              <button id="light-toggle" title="Change theme" aria-label="Change color theme">
                 <i class="ti ti-sun-moon" id="light-toggle-system"></i>
                 <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
                 <i class="ti ti-sun-filled" id="light-toggle-light"></i>

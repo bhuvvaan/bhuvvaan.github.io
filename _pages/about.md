@@ -3,6 +3,18 @@ layout: about
 title: About
 permalink: /
 subtitle: Data Scientist
+tagline: >-
+  7+ years of experience across e-commerce, healthcare, insurance, and commodities trading.
+  Currently a Business Intelligence Engineer II at Humana, focused on financial and compliance analytics.
+highlights:
+  - value: 7+ yrs
+    label: Data science experience
+  - value: Humana
+    label: Business Intelligence Engineer II
+  - value: Flipkart
+    label: Previously Data Scientist
+  - value: M.S.
+    label: Data Science, CU Boulder
 
 profile:
   align: right

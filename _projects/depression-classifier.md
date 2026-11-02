@@ -11,6 +11,6 @@ category: work
 ## Poster
 
 <div class="pdf-container" height="1000px">
-    <iframe src="/assets/pdf/csci5612_poster.pdf#toolbar=1" allow="autoplay"></iframe>
+    <iframe title="Project poster (PDF)" src="/assets/pdf/csci5612_poster.pdf#toolbar=1" allow="autoplay"></iframe>
 </div>
 

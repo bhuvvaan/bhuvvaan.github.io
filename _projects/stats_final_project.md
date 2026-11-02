@@ -16,7 +16,7 @@ category: work
 ## Project Report
 
 <div class="pdf-container" height="1000px">
-    <iframe src="/assets/pdf/stats_final_project_report.pdf#toolbar=1" allow="autoplay"></iframe>
+    <iframe title="Project report (PDF)" src="/assets/pdf/stats_final_project_report.pdf#toolbar=1" allow="autoplay"></iframe>
 </div>
 <br/><br>
 ## Video
