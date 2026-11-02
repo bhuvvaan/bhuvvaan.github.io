@@ -1,44 +1,80 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
+<div class="post about-page">
+  <!-- Hero -->
+  <section class="hero reveal">
+    <div class="hero-text">
+      {% if page.hero.eyebrow %}
+        <span class="hero-eyebrow"><span class="pulse-dot"></span>{{ page.hero.eyebrow }}</span>
       {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+      <h1 class="hero-title">
+        <span class="hero-hi">Hi, I'm</span>
+        {% if site.title == 'blank' %}
+          <span class="gradient-text">
+            {{- site.first_name }}
+            {{ site.middle_name }}
+            {{ site.last_name -}}
+          </span>
+        {% else %}
+          <span class="gradient-text">{{ site.title }}</span>
         {% endif %}
+      </h1>
+      <p class="hero-subtitle">
+        <span class="typed-prefix">&gt;</span>
+        <span
+          class="typed"
+          data-words="{% if page.hero.roles %}{{ page.hero.roles | join: '|' | escape }}{% else %}{{ page.subtitle | escape }}{% endif %}"
+        >
+          {{- page.subtitle -}}
+        </span>
+        <span class="typed-cursor" aria-hidden="true">_</span>
+      </p>
+      {% if page.hero.tagline %}
+        <p class="hero-tagline">{{ page.hero.tagline }}</p>
+      {% endif %}
+      <div class="hero-cta">
+        {% if site.email %}
+          <a class="btn-glow" href="mailto:{{ site.email | encode_email }}"><i class="fa-solid fa-paper-plane"></i> Get in touch</a>
+        {% endif %}
+        <a class="btn-ghost" href="{{ '/projects/' | relative_url }}"><i class="fa-solid fa-rocket"></i> See my work</a>
+      </div>
+      {% if page.hero.stats %}
+        <div class="hero-stats">
+          {% for stat in page.hero.stats %}
+            <div class="stat-chip">
+              <span class="stat-number"
+                ><span class="stat-value" data-count="{{ stat.value }}">{{ stat.value }}</span
+                ><span class="stat-suffix">{{ stat.suffix }}</span></span
+              >
+              <span class="stat-label">{{ stat.label }}</span>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if page.profile and page.profile.image %}
+      <div class="hero-portrait">
+        <div class="portrait-ring tilt">
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class="img-fluid portrait-img" sizes="(min-width: 576px) 320px, 70vw"
+            alt=page.profile.image cache_bust=true
+          %}
+        </div>
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>
     {% endif %}
+  </section>
 
-    <div class="clearfix">{{ content }}</div>
+  <article>
+    <section class="glass-card about-body reveal">
+      <h2 class="section-heading"><span class="section-index">01.</span> About me</h2>
+      <div class="clearfix">{{ content }}</div>
+    </section>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -66,7 +102,8 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
-      <div class="social">
+      <div class="social reveal">
+        <h2 class="section-heading justify-content-center"><span class="section-index">02.</span> Let's connect</h2>
         <div class="contact-icons">{% include social.liquid %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>

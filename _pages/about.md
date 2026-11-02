@@ -4,6 +4,26 @@ title: About
 permalink: /
 subtitle: Data Scientist
 
+hero:
+  eyebrow: Open to collaborations
+  roles:
+    - Data Scientist
+    - BI Engineer @ Humana
+    - ML & RL Researcher
+    - Aerospace Engineer turned data nerd
+    - Marathoner & guitarist
+  tagline: I turn messy data into decisions — from e-commerce at Flipkart to healthcare analytics at Humana, and diffusion models for warehouse robotics at CU Boulder.
+  stats:
+    - value: 7
+      suffix: "+"
+      label: years in data
+    - value: 4
+      suffix: ""
+      label: industries
+    - value: 2
+      suffix: ""
+      label: research labs
+
 profile:
   align: right
   image: profile_pic_3.png
