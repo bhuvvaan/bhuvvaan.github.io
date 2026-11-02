@@ -1,6 +1,16 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
 {% assign parts = include.path | split: '.' %}
-{% assign ext = parts.last %}
+{% assign ext = parts.last | downcase %}
+{% assign has_webp = false %}
+{% if ext == 'jpg' or ext == 'jpeg' or ext == 'png' or ext == 'tiff' %}
+  {% assign has_webp = true %}
+  {% comment %} imagemagick writes the same .webp names for a .gif with this basename, so those files can't be trusted {% endcomment %}
+  {% assign gif_twin = img_path | append: '.gif' | prepend: '/' | replace: '//', '/' %}
+  {% assign gif_twin_file = site.static_files | where: 'path', gif_twin | first %}
+  {% if gif_twin_file %}
+    {% assign has_webp = false %}
+  {% endif %}
+{% endif %}
 
 <figure
   {% if include.slot %}
@@ -16,8 +26,8 @@
     {% if site.imagemagick.enabled %}
       <source
         class="responsive-img-srcset"
-        {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.tiff' or ext == '.gif' %}
-          srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"
+        {% if has_webp %}
+          srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url | replace: ' ', '%20' }}-{{ i }}.webp {{i}}w,{% endfor %}"
           type="image/webp"
         {% else %}
           srcset="{{ include.path | relative_url }}"
