@@ -232,8 +232,8 @@ let determineComputedTheme = () => {
 };
 
 let initTheme = () => {
-  let themeSetting = determineThemeSetting();
-  themeSetting = "dark";
+  // Default to dark for first-time visitors, but respect a choice made with the toggle.
+  let themeSetting = localStorage.getItem("theme") ? determineThemeSetting() : "dark";
 
   setThemeSetting(themeSetting);
 
