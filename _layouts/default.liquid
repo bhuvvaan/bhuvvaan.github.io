@@ -17,6 +17,15 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <!-- Animated aurora background -->
+    <div class="aurora" aria-hidden="true">
+      <span class="blob blob-1"></span>
+      <span class="blob blob-2"></span>
+      <span class="blob blob-3"></span>
+      <span class="grid-overlay"></span>
+    </div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
     <!-- Header -->
     {% include header.liquid %}
 
@@ -73,5 +82,6 @@
     {% include scripts/jekyll_tabs.liquid %}
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
+    <script defer src="{{ '/assets/js/fancy.js' | relative_url | bust_file_cache }}"></script>
   </body>
 </html>
