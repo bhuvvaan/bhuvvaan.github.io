@@ -5,6 +5,7 @@ permalink: /projects/
 description: #A growing collection of your cool projects.
 nav: true
 nav_order: 2
+wide: true
 display_categories: # [work, fun]
 horizontal: false
 ---
@@ -29,7 +30,7 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="project-grid">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -55,7 +56,7 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="project-grid">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}

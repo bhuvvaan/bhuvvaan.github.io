@@ -1,80 +1,190 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+{% capture full_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+<div class="home">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__backdrop" aria-hidden="true">
+      <span class="hero__orb hero__orb--a"></span>
+      <span class="hero__orb hero__orb--b"></span>
+    </div>
+
+    <div class="hero__copy" data-reveal>
+      {% if page.subtitle %}
+        <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>{{ page.subtitle }}</p>
+      {% endif %}
+      <h1 id="hero-title" class="hero__title">
+        {% if site.title == 'blank' %}
+          <span class="hero__first">{{ site.first_name }}</span>
+          {% if site.middle_name %}{{ site.middle_name }}{% endif %}
+          <span class="hero__last text-gradient">{{ site.last_name }}</span>
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      {% if page.tagline %}
+        <p class="hero__lead">{{ page.tagline }}</p>
+      {% endif %}
+
+      <div class="hero__actions">
+        <a class="btn-pill btn-pill--primary" href="{{ '/projects/' | relative_url }}">
+          View projects <i class="ti ti-arrow-right" aria-hidden="true"></i>
+        </a>
+        {% if site.email %}
+          <a class="btn-pill btn-pill--ghost" href="mailto:{{ site.email | encode_email }}">
+            <i class="ti ti-mail" aria-hidden="true"></i> Get in touch
+          </a>
+        {% endif %}
+      </div>
+
+      {% if page.social %}
+        <div class="hero__social social-row" aria-label="Social links">{% include social.liquid %}</div>
+      {% endif %}
+    </div>
+
+    {% if page.profile and page.profile.image %}
+      <div class="hero__portrait" data-reveal style="--reveal-delay: 120">
+        <div class="portrait-frame">
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% assign profile_image_class = 'portrait-img rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'portrait-img' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes="(min-width: 992px) 380px, (min-width: 576px) 320px, 80vw" alt=full_name
             cache_bust=true
           %}
-        {% endif %}
+        </div>
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>
     {% endif %}
+  </section>
 
-    <div class="clearfix">{{ content }}</div>
+  {% if page.highlights %}
+    <section class="highlights" aria-label="At a glance">
+      <ul class="highlights__grid">
+        {% for item in page.highlights %}
+          <li class="highlight" data-reveal style="--reveal-delay: {{ forloop.index0 | times: 70 }}">
+            <span class="highlight__value">{{ item.value }}</span>
+            <span class="highlight__label">{{ item.label }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
 
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2>
+  <section class="home-section" id="about" aria-labelledby="about-title">
+    <header class="section-head" data-reveal>
+      <p class="section-kicker">01 / About</p>
+      <h2 id="about-title" class="section-title">About me</h2>
+    </header>
+    <div class="about-body" data-reveal>
+      <div class="prose">{{ content }}</div>
+      {% if site.keywords %}
+        <aside class="focus-card" aria-labelledby="focus-title">
+          <h3 id="focus-title" class="focus-card__title">Focus areas</h3>
+          <ul class="chip-list">
+            {% assign keywords = site.keywords | split: ',' %}
+            {% for keyword in keywords %}
+              <li class="chip">{{ keyword | strip }}</li>
+            {% endfor %}
+          </ul>
+        </aside>
+      {% endif %}
+    </div>
+  </section>
+
+  {% assign featured_projects = site.projects | where: 'importance', 1 | sort: 'date' | reverse %}
+  {% if featured_projects.size > 0 %}
+    <section class="home-section" id="work" aria-labelledby="work-title">
+      <header class="section-head section-head--split" data-reveal>
+        <div>
+          <p class="section-kicker">02 / Selected work</p>
+          <h2 id="work-title" class="section-title">Featured projects</h2>
+        </div>
+        <a class="link-arrow" href="{{ '/projects/' | relative_url }}">All projects <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+      </header>
+      <div class="project-grid project-grid--featured">
+        {% for project in featured_projects limit: 4 %}
+          {% include projects.liquid heading='h3' %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <section class="home-section" id="more" aria-labelledby="more-title">
+    <header class="section-head" data-reveal>
+      <p class="section-kicker">03 / More</p>
+      <h2 id="more-title" class="section-title">Beyond the code</h2>
+    </header>
+    <div class="tile-grid">
+      <a class="tile" href="{{ '/teaching/' | relative_url }}" data-reveal>
+        <i class="ti ti-school tile__icon" aria-hidden="true"></i>
+        <span class="tile__title">Teaching</span>
+        <span class="tile__text">Teaching Assistant, Department of Aerospace Engineering, University of Colorado Boulder.</span>
+        <span class="tile__cta">See courses <i class="ti ti-arrow-right" aria-hidden="true"></i></span>
+      </a>
+      <a class="tile" href="{{ '/bookshelf/' | relative_url }}" data-reveal style="--reveal-delay: 80">
+        <i class="ti ti-books tile__icon" aria-hidden="true"></i>
+        <span class="tile__title">Bookshelf</span>
+        <span class="tile__text">The books I read: non-fiction, biography, technical, and fiction.</span>
+        <span class="tile__cta">Browse the shelf <i class="ti ti-arrow-right" aria-hidden="true"></i></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- News -->
+  {% if page.news and site.announcements.enabled %}
+    <section class="home-section">
+      <h2 class="section-title">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
-    {% endif %}
+    </section>
+  {% endif %}
 
-    <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
-      <h2>
+  <!-- Latest posts -->
+  {% if site.latest_posts.enabled %}
+    <section class="home-section">
+      <h2 class="section-title">
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
-    {% endif %}
+    </section>
+  {% endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"></a>
+  <!-- Selected papers -->
+  {% if page.selected_papers %}
+    <section class="home-section">
+      <h2 class="section-title">
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
+    </section>
+  {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
+  {% if page.social %}
+    <section class="contact-cta" id="contact" aria-labelledby="contact-title" data-reveal>
+      <p class="section-kicker">04 / Contact</p>
+      <h2 id="contact-title" class="contact-cta__title">Let's <span class="text-gradient">connect</span>.</h2>
+      <p class="contact-cta__text">Email is the best way to reach me.</p>
+      {% if site.email %}
+        <a class="btn-pill btn-pill--primary btn-pill--lg" href="mailto:{{ site.email | encode_email }}">
+          <i class="ti ti-mail" aria-hidden="true"></i> Email me
+        </a>
+      {% endif %}
+      <div class="social-row social-row--center" aria-label="Social links">{% include social.liquid %}</div>
+      {% if site.contact_note %}
         <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
+      {% endif %}
+    </section>
+  {% endif %}
 
-    {% if site.newsletter.enabled and site.footer_fixed %}
-      {% include scripts/newsletter.liquid center=true %}
-    {% endif %}
-  </article>
+  {% if site.newsletter.enabled and site.footer_fixed %}
+    {% include scripts/newsletter.liquid center=true %}
+  {% endif %}
 </div>

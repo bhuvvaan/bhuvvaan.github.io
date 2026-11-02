@@ -8,13 +8,29 @@ layout: default
   </style>
 {% endif %}
 
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
+{% assign is_project = false %}
+{% if page.collection == 'projects' %}
+  {% assign is_project = true %}
+{% endif %}
+
+<div class="post page-shell{% if page.wide %} page-shell--wide{% endif %}">
+  <header class="page-header" data-reveal>
+    {% if is_project %}
+      <a class="page-header__back" href="{{ '/projects/' | relative_url }}"><i class="ti ti-arrow-left" aria-hidden="true"></i> All projects</a>
+      <p class="section-kicker">
+        Project
+        {%- if page.date %}
+          · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %Y' }}</time>
+        {%- endif %}
+      </p>
+    {% endif %}
+    <h1 class="post-title page-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description page-description">{{ page.description }}</p>
+    {% endif %}
   </header>
 
-  <article>
+  <article class="prose">
     {{ content }}
   </article>
 
