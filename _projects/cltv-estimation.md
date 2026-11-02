@@ -36,6 +36,6 @@ category: work
 ## Project Report
 
 <div class="pdf-container" height="1000px">
-    <iframe src="/assets/pdf/datamining-report.pdf#toolbar=1" allow="autoplay"></iframe>
+    <iframe title="Project report (PDF)" src="/assets/pdf/datamining-report.pdf#toolbar=1" allow="autoplay"></iframe>
 </div>
 <br /><br />

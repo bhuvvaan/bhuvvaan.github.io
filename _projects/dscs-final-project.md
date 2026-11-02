@@ -61,7 +61,7 @@ Feel free to reach out if any comments!
 ## Project Report
 
 <div class="pdf-container" height="1000px">
-    <iframe src="/assets/pdf/DCSC-Project Report- Group 120.pdf#toolbar=1" allow="autoplay"></iframe>
+    <iframe title="Project report (PDF)" src="/assets/pdf/DCSC-Project Report- Group 120.pdf#toolbar=1" allow="autoplay"></iframe>
 </div>
 <br/><br>
 ## Video
