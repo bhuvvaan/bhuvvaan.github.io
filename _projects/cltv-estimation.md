@@ -10,7 +10,7 @@ category: work
 
 ## Website
 
-[https://sites.google.com/colorado.edu/cltv/introduction](https://sites.google.com/colorado.edu/cltv/introduction) 
+[https://sites.google.com/colorado.edu/cltv/introduction](https://sites.google.com/colorado.edu/cltv/introduction)
 
 ## Github Repo
 
