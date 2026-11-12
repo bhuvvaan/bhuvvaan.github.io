@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Data Scientist
+subtitle: Software Engineer
 tagline: >-
   7+ years of experience across e-commerce, healthcare, insurance, and commodities trading.
   Currently a Software Engineer at Mason.
@@ -27,7 +27,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to my website! I am a Data Scientist with 7+ years of experience across e-commerce, healthcare, insurance, and commodities trading. I currently work as a Software Engineer at Mason.
+Welcome to my website! I am a Software Engineer at Mason with 7+ years of experience across e-commerce, healthcare, insurance, and commodities trading.
 
 Originally from an Aerospace Engineering background, which I still enjoy teaching when I can, I pivoted into Data Science a few years ago and eventually made it my full-time focus. I have industry experience working as a Data Scientist at Flipkart, India's largest e-commerce company.
 
